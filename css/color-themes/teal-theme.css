@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+a,
+.theme_color,
+.main-header .info-box .icon-box,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li.current-menu-item > a,
+.services-section .services-title h2 span,
+.default-section .about-column .column-inner .learn-about a,
+.fact-counter .count-outer .count-text,
+.fact-counter .count-outer .plus-tag,
+.services-style-two .inner-box .icon-box,
+.main-footer .footer-bottom .copyright a,
+.main-header .header-top .top-left ul li .icon,
+.header-type-one .main-menu .navigation > li.current > a,
+.header-type-one .main-menu .navigation > li:hover > a,
+.services-style-three .inner-box .icon-box,
+.services-style-four .inner-box .icon-box,
+.projects-section .title-column .projects,
+.page-info .bread-crumb li,
+.page-info .share-icon .icon,
+.list-style-two li:before,
+.services-style-three .inner-box .icon-box,
+.services-style-five .inner-box .lower-box .detail,
+.gallery-section .filters .filter.active,
+.gallery-section .filters .filter:hover,
+.gallery-section .filters .filter:hover::after,
+.project-single .graph-block .stats-box .theme-btn,
+.project-single-tab .prod-tabs .tab-btns .tab-btn.active-btn,
+.styled-pagination li a:hover,
+.styled-pagination li a.active,
+.shop-page .prod-tabs .reviews-container .rev-header .rating,
+.contact-info .inner .icon-box,
+.accordion-box .block .icon-outer .icon-minus,
+.testimonial-section .owl-nav .owl-prev:hover,
+.testimonial-section .owl-nav .owl-next:hover,
+.news-style-one .inner-box .lower-content h3 a:hover,
+.news-style-one .inner-box .lower-content .more-detail:hover,
+.services-style-one .inner-box .lower-box h3 a:hover,
+.services-style-two .inner-box h3 a:hover,
+.main-footer .links-widget .list li a:hover,
+.services-style-four .inner-box h3 a:hover,
+.pricing-column .inner-box:hover .price-header .price .total-amount,
+.team-section .owl-nav .owl-prev:hover,
+.team-section .owl-nav .owl-next:hover,
+.error-search-box .form-group input:focus + button,
+.error-search-box .form-group button:hover,
+.services-style-five .inner-box .lower-box h3 a:hover,
+.category-box .category-list .sub-menu > li > a:hover,
+.shop-item .inner-box .lower-content h3 a:hover,
+.sidebar .related-posts .shop-post a,
+.sidebar .related-posts .shop-post a:hover,
+.shop-page .prod-tabs .add-review .rating .rate-box:hover,
+.shop-page .prod-tabs .add-review .rating .rate-box:focus,
+.shop-page .prod-tabs .add-review .rating .rate-box:active,
+.blog-cat li a:hover,
+.sidebar .popular-posts .post a,
+.sidebar .popular-posts .post a:hover,
+.news-style-two .inner-box .lower-content h3 a:hover,
+.news-style-two .inner-box .lower-content .more-detail:hover,
+.page-info .share-icon a:hover,
+.page-info .bread-crumb li a:hover,
+.social-icon-three a:hover,
+.btn-style-three:hover,
+.services-style-three .inner-box h3 a:hover,
+.btn-style-one:hover,
+.services-style-two .inner-box .detail:hover,
+.services-style-one .inner-box:hover h3 a{
+	color:#39CCCC;
+}
+
+
+/*Background Color*/
+
+.main-header .btn-box .quote-btn,
+.btn-style-one,
+.services-section .services-title h2:after,
+.sec-title h2:after,
+.purchase-section,
+.news-style-one .inner-box .image .post-time,
+.main-header .sticky-header .main-menu .navigation > li:hover > a,
+.main-header .sticky-header .main-menu .navigation > li.current > a,
+.main-header .sticky-header .main-menu .navigation > li.current-menu-item > a,
+.services-style-one .inner-box:hover .lower-box .arrow-box,
+.testimonial-section .testimonial-title h2:after,
+.main-footer .logo-widget .form-group input[type="submit"],
+.main-footer .logo-widget button,
+.social-icon-one li a:hover,
+.main-menu .navigation > li > ul > li:hover > a,
+.main-menu .navigation > li > ul > li  > ul > li > a:hover,
+.main-header .header-top .top-right .quote-btn a,
+.main-header .cart-btn .shop-icon .total-count,
+.scroll-to-top:hover,
+.btn-style-four:hover,
+.accordion-box.style-two .block .icon-outer .icon-minus,
+.faq-form .question-btn:hover,
+.sidebar .sidebar-category .list li a:hover,
+.sidebar .sidebar-category .list li.current a,
+.sidebar-testimonial .owl-dots .owl-dot.active span,
+.sidebar-testimonial .owl-dots .owl-dot:hover span,
+.info-widget .inner,
+.sidebar-brochure .brochure:hover,
+.list-box li:before,
+.sidebar .popular-tags a:hover,
+.shop-page .prod-tabs .tab-btns .tab-btn:before,
+.news-style-two .inner-box .image .post-time,
+.btn-style-two:hover,
+.tab-section .prod-tabs .tab-btns .tab-btn.active-btn,
+.tab-section .prod-tabs .tab-btns .tab-btn:hover,
+.main-header .btn-box .quote-btn:hover,
+.gallery-section .filters .filter.active::before,
+.gallery-section .filters .filter:hover::before,
+.gallery-section .filters .filter.active::after,
+.project-single-tab .prod-tabs .tab-btns .tab-btn.active-btn:before,
+.color-palate-head,
+.color-trigger{
+	background-color:#39CCCC;
+}
+
+/*Important Color*/
+
+.main-slider .tparrows.preview3.tp-leftarrow:hover,
+.main-slider .tparrows.preview3.tp-rightarrow:hover,
+.rangeslider-widget .noUi-connect{
+	background-color:#39CCCC !important;
+}
+
+/*Border Color*/
+
+.btn-style-one,
+.services-style-one .inner-box:hover .lower-box .arrow-box,
+.team-section .owl-nav .owl-prev:hover,
+.team-section .owl-nav .owl-next:hover,
+.team-member .inner-box:hover .lower-box,
+.main-header .search-box-outer .dropdown-menu,
+.btn-style-two:hover,
+.btn-style-four:hover,
+.main-header .btn-box .quote-btn:hover,
+.sidebar-brochure .brochure:hover,
+.project-single .graph-block .stats-box .theme-btn,
+.project-single-tab .prod-tabs .tab-btns .tab-btn.active-btn,
+.styled-pagination li a:hover,
+.styled-pagination li a.active,
+.sidebar .popular-tags a:hover,
+.faq-form .question-btn:hover{
+	border-color:#39CCCC;
+}
+
+/*Focus Color*/
+
+.default-form .form-group input:focus,
+.default-form .form-group textarea:focus,
+.default-form .form-group input:focus,
+.default-form .form-group textarea:focus,
+.faq-form input:focus,
+.faq-form select:focus,
+.faq-form textarea:focus,
+.error-search-box .form-group input:focus,
+.comment-form .form-group input[type="text"]:focus,
+.comment-form .form-group input[type="password"]:focus,
+.comment-form .form-group input[type="tel"]:focus,
+.comment-form .form-group input[type="email"]:focus,
+.comment-form .form-group select:focus,
+.comment-form .form-group textarea:focus,
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus,
+.main-header .search-panel input:focus,
+.main-header .search-panel select:focus,
+.main-header .search-form .form-group input[type="search"]:focus,
+.main-menu .navigation > li > ul > li > ul,
+.main-menu .navigation > li > ul,
+.main-slider .tparrows.preview3.tp-leftarrow:hover,
+.main-slider .tparrows.preview3.tp-rightarrow:hover,
+.faq-section .faq-search-box .form-group input:focus{
+	border-color:#39CCCC !important;
+}
+
+/*RGBA Border Color*/
+
+.main-menu .navigation > li > ul{
+	border-color:rgba(57,204,204,0.50);
+}
+
+/*RGBA Color*/
+
+.team-member .inner-box .image .overlay-box,
+.default-gallery-item .inner-box .overlay-box .overlay-inner{
+	background-color:rgba(57,204,204,0.90);
+}
+
+@media only screen and (max-width: 767px){
+	
+	.main-menu .navbar-header .navbar-toggle{
+		color:#39CCCC;
+	}
+	
+	.main-menu .navbar-header .navbar-toggle{
+		border-color:#39CCCC;
+	}
+	
+	.main-menu .navbar-header .navbar-toggle,
+	.main-menu .navbar-collapse > .navigation,
+	.main-menu .navbar-collapse > .navigation > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > a:hover,
+	.main-menu .navbar-collapse > .navigation > li > a:active,
+	.main-menu .navbar-collapse > .navigation > li > a:focus,
+	.main-menu .navbar-collapse > .navigation > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li.current > a,
+	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+		background-color:#39CCCC;
+	}
+	
+}

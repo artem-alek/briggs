@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Consul HTML Template | Services Single</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Add Theme Color File To Change Template Color Scheme / Color Scheme Files are Located in root/css/color-themes/ folder-->
+<!--<link href="css/color-themes/blue-theme.css" rel="stylesheet">-->
+
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+     <header class="main-header">
+    	<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	
+                	<div class="pull-left logo-outer">
+                    	<div class="logo"><a href="index.html"><img src="images/ba-logo&image-cyan.png" alt="" title=""></a></div>
+                    </div>
+                    
+                    <div class="pull-right upper-right clearfix">
+                    	
+                        <!--Info Box-->
+                        <div class="upper-column info-box">
+                        	<!-- <div class="icon-box"><span class="flaticon-placeholder-1"></span></div> -->
+                            <ul>
+                            	<li><strong>"There's place and means for every man alive." </strong></li>
+                                 <li class="pull-right">- Shakespeare</li> 
+                            </ul>
+                        </div>
+                        
+                        <!--Info Box-->
+                         <div class="upper-column info-box hidden">
+                        	<div class="icon-box"><span class="flaticon-technology-3"></span></div>
+                            <ul>
+                            	<li><strong>consul@mail.com</strong></li>
+                                <li>Office Hour: 10:00am - 5:00pm</li>
+                            </ul>
+                        </div> 
+                        
+                        <!--Info Box-->
+                        <div class="upper-column info-box">
+                        	<div class="search-form">
+                                <form method="post" action="contact.html">
+                                    <div class="form-group">
+                                        <input type="search" name="search" value="" placeholder="Search Here..." required>
+                                        <button type="submit" class="theme-btn"><span class="fa fa-search"></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+        
+        <!--Header Lower-->
+        <div class="header-lower">
+            <div class="bg-box"></div>
+        	<div class="auto-container">
+            	<div class="nav-outer clearfix">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class=""><a href="#">Home</a>
+                                </li>
+                                <li class="dropdown current"><a href="#">Programs & Services</a>
+                                    <ul>
+                                        <li><a href="#">Career Development</a></li>
+                                        <li><a href="#">Counsulting & Training</a></li>
+                                        <li><a href="#">Project Search</a></li>
+                                        <li><a href="#">Micro Enterprise</a></li>
+                                        <!-- <li><a href="#">WOW - Women Off Welfare</a></li>
+                                        <li><a href="#">Whole Life Program</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">Employment</a>
+                                    <ul>
+                                        <li><a href="#">Join Our Team</a></li>
+                                        <li><a href="#">Benefits & Opportunities</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Myth & Truths</a></li>
+                                        <li><a href="#">Testimonials</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Main Menu End-->
+                    <div class="btn-box">
+                    	<a href="#" class="quote-btn theme-btn">Request Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Lower-->
+        
+        <!--Sticky Header-->
+        <div class="sticky-header">
+        	<div class="auto-container clearfix">
+            	<!--Logo-->
+            	<div class="logo pull-left">
+                	<a href="index.html" class="img-responsive"><img src="images/logo-blue-low-res.png" style="height:50px;" alt="" title=""></a>
+                </div>
+                
+                <!--Right Col-->
+                <div class="right-col pull-right">
+                	<!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="dropdown"><a href="#">Home</a>
+                                </li>
+                                <li class="dropdown current"><a href="#">Programs & Services</a>
+                                    <ul>
+                                        <li><a href="#">Career Development</a></li>
+                                        <li><a href="#">Counsulting & Training</a></li>
+                                        <li><a href="#">Project Search</a></li>
+                                        <li><a href="#">Micro Enterprise</a></li>
+                                        <!-- <li><a href="#">WOW - Women Off Welfare</a></li>
+                                        <li><a href="#">Whole Life Program</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">Employment</a>
+                                    <ul>
+                                        <li><a href="#">Join Our Team</a></li>
+                                        <li><a href="#">Benefits & Opportunities</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">About Us</a>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Myth & Truths</a></li>
+                                        <li><a href="#">Testimonials</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+                
+            </div>
+        </div>
+        <!--End Sticky Header-->
+    
+    </header>
+    <!--End Main Header -->
+    
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/2.jpg);">
+        <div class="auto-container">
+            <h1>Single Services</h1>
+        </div>
+    </section>
+    
+    <!--Page Info-->
+    <section class="page-info">
+        <div class="auto-container clearfix">
+            <div class="pull-left">
+            	<ul class="bread-crumb clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="share-icon"><a href="#"><span class="icon fa fa-share"></span> Share</a></div>
+            </div>
+        </div>
+    </section>
+    <!--End Page Info-->
+    
+    <!--Sidebar Page Container-->
+    <div class="sidebar-page-container">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            	
+                <!--Content Side-->
+                <div class="content-side pull-right col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                	<!--Services Single-->
+                	<div class="services-single">
+                    	<div class="inner-box">
+                        
+                            <div class="image">
+                                <img src="images/resource/services-single.jpg" alt="" />
+                            </div>
+                            
+                            <div class="upper-box">
+                                <h3>Increase Your Business Profit</h3>
+                                <div class="dark-text">Here will some subtite with  dosis alter seeker levegre agile framwork provide high level overviews</div>
+                                <div class="text">Established in 1997 and based in Swindon, Wiltshire, BusinessWebsite has helped over 500 clients to make the most of their web presence and selling potential. Our talented team of in-house designers and developers offers a full package of internet solutions, including website design and build, hosting, development and support services.</div>
+                                <!--Two Column-->
+                                <div class="two-column">
+                                    <div class="row clearfix">
+                                        <div class="image-column col-md-5 col-sm-6 col-xs-12">
+                                            <div class="image">
+                                                <img src="images/resource/services-img.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="column col-md-7 col-sm-6 col-xs-12">
+                                            <div class="content-inner">
+                                                <h4>Our Services Help You:</h4>
+                                                <div class="styled-text">Develop a 10% or greater net profit margin. <br> Create a budget for your business that actually works. <br> Set up an accountability system to control costs. <br> Build a tool to help you add employees at the right time. <br> Get your business out of debt.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="lower-box">
+                            	<div class="analysic-block">
+                            		<h3>Service Analysis <span>2016</span></h3>
+                                	<div class="text">We assist organizations that are underperforming or seeking us profit as well as those in transition those or in the midst get our our significant whatever the offerings are scalable to your unique needs situation.</div>
+                                    <div class="row clearfix">
+                                    
+                                    	<!--Info Column-->
+                                    	<div class="info-column col-md-6 col-sm-6 col-xs-12">
+                                        	<!--Analysic Info-->
+                                        	<div class="analysic-info">
+                                            	<div class="inner">
+                                                	<div class="icon flaticon-database"></div>
+                                                    <h4><span class="theme_color">40%</span> Traffic Boost</h4>
+                                                    <div class="info-text">Get 40% more traffice than normal trafiice</div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!--Analysic Info-->
+                                        	<div class="analysic-info">
+                                            	<div class="inner">
+                                                	<div class="icon flaticon-house-outline"></div>
+                                                    <h4><span class="theme_color">#2 </span>Google Rank</h4>
+                                                    <div class="info-text">Get 40% more traffice than normal trafiice</div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!--Analysic Info-->
+                                        	<div class="analysic-info">
+                                            	<div class="inner">
+                                                	<div class="icon flaticon-eye"></div>
+                                                    <h4><span class="theme_color">68% </span>Real Visitor</h4>
+                                                    <div class="info-text">Get 40% more traffice than normal trafiice</div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <!--Chart Column-->
+                                        <div class="chart-column col-md-6 col-sm-6 col-xs-12">
+                                        	<div class="image">
+                                            	<!--Graph-->
+                                                <div class="graph-outer">
+                                                    <canvas id="service-analysis-graph" style="width:100%;"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <!--Advisor Box-->
+                                <div class="advisor-box">
+                                	<div class="row clearfix">
+                                    	<!--content column-->
+                                    	<div class="content-column col-md-8 col-sm-12 col-xs-12">
+                                        	<h3>We Have Great Advisor!!</h3>
+                                            <div class="text">Here will be somthing that releted with <a href="#">business & Consulting</a> services</div>
+                                        </div>
+                                        <!--btn column-->
+                                        <div class="btn-column col-md-4 col-sm-12 col-xs-12">
+                                        	<a href="#" class="theme-btn btn-style-one">Free Consultation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!--Services Tab-->
+                                <div class="services-tab">
+                                	<h2>Our Approch</h2>
+                                    
+                                    <div class="product-info-tabs">
+                                        <!--Product Tabs-->
+                                        <div class="prod-tabs tabs-box" id="product-tabs">
+                                        
+                                            <!--Tab Btns-->
+                                            <ul class="tab-btns tab-buttons clearfix">
+                                                <li data-tab="#prod-approch" class="tab-btn active-btn">Our Approch</li>
+                                                <li data-tab="#prod-chalange" class="tab-btn">Challange</li>
+                                                <li data-tab="#prod-result" class="tab-btn">Solution & Result</li>
+                                            </ul>
+                                            
+                                            <!--Tabs Content-->
+                                            <div class="tabs-container tabs-content">
+                                                
+                                                <!--Tab / Active Tab-->
+                                                <div class="tab active-tab" id="prod-approch">
+                                                    <div class="row clearfix">
+                                                    	<!--image column-->
+                                                    	<div class="image-column col-md-5 col-sm-6 col-xs-12">
+                                                        	<div class="image">
+                                                            	<img src="images/resource/tab-img.jpg" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <!--tab content column-->
+                                                        <div class="tab-content-column col-md-7 col-sm-6 col-xs-12">
+                                                        	<div class="text">
+                                                            	<p>Righteous indignation and dislike men who are so beguiled demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and those who fail in their duty through weakness.</p>
+                                                                <p>Beguiled demoralized by the charms of pleasure of seds the moment, so blinded by desire, that they cannot foresee the </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!--Tab-->
+                                                <div class="tab" id="prod-chalange">
+                                                    <div class="text">
+                                                        <p>Righteous indignation and dislike men who are so beguiled demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and those who fail in their duty through weakness.</p>
+                                                        <p>Beguiled demoralized by the charms of pleasure of seds the moment, so blinded by desire, that they cannot foresee the </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!--Tab -->
+                                                <div class="tab" id="prod-result">
+                                                    <div class="row clearfix">
+                                                    	<!--image column-->
+                                                    	<div class="image-column col-md-5 col-sm-6 col-xs-12">
+                                                        	<div class="image">
+                                                            	<img src="images/resource/tab-img.jpg" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <!--tab content column-->
+                                                        <div class="tab-content-column col-md-7 col-sm-6 col-xs-12">
+                                                        	<div class="text">
+                                                            	<p>Righteous indignation and dislike men who are so beguiled demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and those who fail in their duty through weakness.</p>
+                                                                <p>Beguiled demoralized by the charms of pleasure of seds the moment, so blinded by desire, that they cannot foresee the </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Sidebar Side-->
+                <div class="sidebar-side pull-left col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                	<aside class="sidebar default-sidebar">
+					
+                    	<!-- Sidebar Category -->
+                        <div class="sidebar-widget sidebar-category">
+                            <ul class="list">
+                                <li class="current"><a href="services-single.html">Career Development</a></li>
+                                <li><a href="services-single.html">Consulting & Training</a></li>
+                                <li><a href="services-single.html">Project Search</a></li>
+                                <li><a href="services-single.html">Micro Enterprise</a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                    	<!-- Sidebar Testimonial -->
+                        <div class="sidebar-widget sidebar-testimonial">
+                        	<div class="single-item-carousel owl-carousel owl-theme">
+                            	<!--Testimonial Slide-->
+                            	<div class="testimonial-slide">
+                                	<div class="inner">
+                                    	<div class="author-info">
+                                        	<div class="image">
+                                            	<img src="images/resource/author-5.jpg" alt="" />
+                                            </div>
+                                            <h3>Jasmin Rose</h3>
+                                            <div class="designation">Founder of Innovate</div>
+                                        </div>
+                                        <div class="text">Leverage agile framework to the provide a robust synoce for high level overviews.</div>
+                                    </div>
+                                </div>
+                                
+                                <!--Testimonial Slide-->
+                            	<div class="testimonial-slide">
+                                	<div class="inner">
+                                    	<div class="author-info">
+                                        	<div class="image">
+                                            	<img src="images/resource/author-5.jpg" alt="" />
+                                            </div>
+                                            <h3>Jasmin Rose</h3>
+                                            <div class="designation">Founder of Innovate</div>
+                                        </div>
+                                        <div class="text">Leverage agile framework to the provide a robust synoce for high level overviews.</div>
+                                    </div>
+                                </div>
+                                
+                                <!--Testimonial Slide-->
+                            	<div class="testimonial-slide">
+                                	<div class="inner">
+                                    	<div class="author-info">
+                                        	<div class="image">
+                                            	<img src="images/resource/author-5.jpg" alt="" />
+                                            </div>
+                                            <h3>Jasmin Rose</h3>
+                                            <div class="designation">Founder of Innovate</div>
+                                        </div>
+                                        <div class="text">Leverage agile framework to the provide a robust synoce for high level overviews.</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    
+                    	<!-- Sidebar Question Box -->
+                        <div class="sidebar-widget sidebar-question">
+                        	<div class="info-widget">
+                                <div class="inner">
+                                    <h3>Have Any Question <br> Call Us Now</h3>
+                                    <h2>+880 456 334 345</h2>
+                                    <a href="#" class="more-detail">More Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Sidebar brochure-->
+                        <div class="sidebar-widget sidebar-brochure">
+                        	<a class="brochure" href="#"><span class="icon flaticon-pdf"></span> Details Brochure.pdf</a>
+                        </div>
+                    
+                    </aside>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!--Purchase Box-->
+    <section class="purchase-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            	<div class="column col-md-8 col-sm-12 col-xs-12">
+                	<h2>We Are The Best Consulting Company Ever!!</h2>
+                </div>
+                <div class="btn-column col-md-4 col-sm-12 col-xs-12">
+                	<a href="contact.html" class="theme-btn btn-style-three">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Purchase Box-->
+    
+    <!--Main Footer-->
+    <footer class="main-footer">
+    	
+        <div class="auto-container">
+            <div class="row clearfix">
+            
+                <!--big column-->
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                    
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-7 col-sm-6 col-xs-12">
+                            <div class="footer-widget logo-widget">
+                                <div class="footer-logo"><figure><a href="index.html"><img src="images/footer-logo.png" alt=""></a></figure></div>
+                                <div class="widget-content">
+                                    <div class="text">Floor & Decor is a leading specialty retailer in the hard surface flooring market, offering the broadest in-stock selection of tile,and flooring.</div>
+                                    <div class="emailed-form">
+                                        <form method="post" action="contact.html">
+                                            <div class="form-group">
+                                                <input type="email" name="email" value="" placeholder="Enter Your Email" required>
+                                                <button type="submit" class="theme-btn"><span class="fa fa-angle-right"></span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-5 col-sm-6 col-xs-12">
+                            <div class="footer-widget links-widget">
+                                <h2>Quick Links</h2>
+                                <div class="widget-content">
+                                    <ul class="list">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Condition</a></li>
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                                                    
+                    </div>
+                </div>
+                
+                <!--big column-->
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                        
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget links-widget">
+                                <h2>Information</h2>
+                                <div class="widget-content">
+                                    <ul class="list">
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Customer</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Collection</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">BestSellers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget info-widget">
+                                <h2>Our address</h2>
+                                <div class="widget-content">
+                                    <ul class="list-style-one">
+                                        <li>Phone: <span> +880 1723801729</span></li>
+                                        <li>Fax: <span> +1 496 457 654</span></li>
+                                        <li>Email: <span>carpetinc@gmail.com</span></li>
+                                        <li>Address: <span>Uttara Sec-7, Dhaka 1207</span></li>
+                                    </ul>
+                                    <ul class="social-icon-one">
+                                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                        <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+        	<div class="auto-container">
+            	<div class="row clearfix">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="copyright">&copy; 2017 <a href="index.html">Cansul Inc.</a> All Rights Reserved. </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <ul class="footer-nav">
+                        	<li><a href="#">About Us</a></li>
+                            <li><a href="#">FAQ’s</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+	<!--End Footer-->
+    
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-long-arrow-up"></span></div>
+
+
+
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/revolution.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+
+<!--Graph Script-->
+<script src="js/chart.js"></script>
+<script src="js/graph.js"></script>
+
+</body>
+</html>
